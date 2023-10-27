@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.nav-container {
+    width: 130rem;
+    height: 13rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo-txt {
+    color: #ff42a5;
+}
+
+.nav-logo {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-logo img {
+    width: 8.6rem;
+    height: 4rem;
+}
+
+.nav-logo h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.nav-links {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+
+.nav-links ul {
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+
+}
+
+.nav-links li,
+.nav-links a {
+    text-decoration: none;
+    list-style: none;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #3C354F;
+}
+
+.nav-links .follow-us {
+    display: flex;
+    gap: 1.6rem;
+    padding: 1.7rem 2.4rem;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
+.fa-brands{
+    font-size: 2.4rem;
+}
+/* nav section ends here  */
