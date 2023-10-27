@@ -11,11 +11,16 @@ html {
     font-size: 62.5%;
 }
 
+nav{
+    width: 100%;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
 .nav-container {
-    width: 130rem;
+    width: 140rem;
     height: 13rem;
     margin: 0 auto;
     display: flex;
+    background: #FFF;
 }
 
 .logo-txt {
@@ -72,3 +77,180 @@ html {
     font-size: 2.4rem;
 }
 /* nav section ends here  */
+.banner{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.banner-container{
+    width: 140rem;
+    height: 70rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+.banner-text,.banner-img{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.banner-text p{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+}
+.gradient-text{
+    font-size: 9.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-text ul{
+    text-decoration: none;
+    list-style-type: none;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 2.4rem;
+}
+.btn-container{
+    display: flex;
+    gap: 2.4rem;
+}
+.banner-btn{
+    padding: 2.1rem 4rem;
+    border-radius: 4.8rem;
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+    border: none;
+    margin-top: 4.1rem;
+}
+.banner-btn.pink{
+    background: #FF42A5;
+}
+.banner-btn.blue{
+    background: #4EC5F7;
+}
+/* banner image styles here  */
+.banner-img img{
+    width: 100%;
+}
+
+/* we are gamer section starts here  */
+.we-are-gamer-container{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+}
+.we-are-gamer{
+    width: 130rem;
+    height: 60rem;
+    margin: 0 auto;
+    display: flex;
+
+
+}
+.gamer-img{
+    width: 60%;
+}
+.gamer-img img{
+    width: 100%;
+}
+.gamer-text{
+    width: 40%;
+    text-align: right;
+}
+.gamer-text .gamer-gradient{
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.gamer-p{
+    color: #534C64;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-top: 2.4rem;
+}
+.purpose-text{
+    color: #534C64;
+    line-height: 4.5rem;
+    margin-top: 2.4rem;
+}
+.purpose-text p{
+    font-size: 2.4rem;
+    font-weight: 500;
+}
+.purpose-text h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+
+}
+/* Online Games funny videos starts here  */
+.online-games-videos{
+    width: 1400px;
+    margin: 12rem auto;
+
+}
+.online-games-videos h1{
+    font-size: 4.8rem;
+}
+.online-games-videos p{
+    font-size: 1.8rem;
+}
+.video-header-info{
+    text-align: center;
+    margin-bottom: 4.8rem;
+}
+.video-header-gradient{
+    font-size: 4.8rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.videos{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2.4rem;
+}
+.video img{
+    margin-bottom: 2.4rem;
+    width: 30rem;
+}
+.video img:hover{
+    border: 0.7rem solid #FF42A5;
+    border-radius: 2.6rem;
+    transition: ease 0.5s;
+    opacity: 50%;
+}
+.video{
+    position:relative;
+    width: 30rem;
+}
+.video p{
+    font-size: 2rem;
+}
+:hover.video i{
+    position: absolute;
+    top: 15rem;
+    font-size: 5rem;
+    z-index: 1;
+    right: 12.5rem;
+    transition: 0.3s;
+    color: white;
+    cursor: pointer;
+}
+:hover.video{
+    opacity: 70%;
+    transition: 0.3s;
+}
+.video i:hover{
+    visibility: visible;
+}

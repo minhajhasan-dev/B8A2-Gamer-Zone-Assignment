@@ -4,15 +4,18 @@
     .nav-container{
         flex-direction: column;
         justify-content: center;
-        width: 100%;
+        width: 100vw;
         align-items: center;
         justify-content: center;
-        margin-top: 10.3rem;
+        padding-top: 5rem;
+        height: 100%;
+        padding-bottom: 4rem;
+
     }
     .nav-links ul {
         flex-direction: column;
-        margin-top: 6.2rem;
-        gap: 4rem;
+        margin-top: 6rem;
+        gap: 2rem;
     }
     .nav-links li,
     .nav-links a {
@@ -38,5 +41,112 @@
         justify-content: center;
     }
     /* nav responsive ends here  */
+    /* banner responsive starts here  */
+
+    .banner-container{
+        flex-direction: column-reverse;
+        gap: 5rem;
+        width: 100vw;
+        padding: 3rem;
+    }
+    .gradient-text{
+        font-size: 5rem;
+    }
+    .banner-img{
+        width: 100vw;
+
+    }
+    .btn-container{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .banner-btn{
+        font-size: 1rem;
+    }
+    .banner-text,.banner-img{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .banner-text p{
+        font-size: 2.4rem;
+    }
+    
+    .banner-text ul{
+        font-size: 1rem;
+    }
+    
+    /* we are gamer part responsive starts here  */
+    .we-are-gamer{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+    .gamer-img{
+        width: 90%;
+    }
+    .gamer-text{
+        width: 100%;
+        text-align: center;
+        padding: 5rem;
+    }
+    .gamer-p {
+        font-size: 1.2rem;
+    }
+    .gamer-text .gamer-gradient{
+        font-size: 2.5rem;
+    }
+    .purpose-text p{
+        font-size: 1.6rem;
+    }
+    .purpose-text h1 {
+        font-size: 1.7rem;
+    }
+    /* online games funny videos section starts here  */
+    .online-games-videos{
+        width: 100vw;
+    }
+    .video-header-info h1, .video-header-gradient{
+        font-size: 1.8rem;
+        text-align: center;
+        width: 100vw;
+    }
+    .video-header-info{
+        width: 100vw;
+    }
+    .video-header-info p{
+        font-size: 1rem;
+        text-align: center;
+        width: 100vw;
+        margin-top: 1.6rem;
+    }
+    
+    .video img{
+        width: 70%;
+
+    }
+    .video p{
+        text-align:center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .video{
+        text-align: center;
+        width: 100%;
+    }
+    .videos{
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+    :hover.video i{
+        top: 15rem;
+        right: 19rem;
+    }
+
 
 }
