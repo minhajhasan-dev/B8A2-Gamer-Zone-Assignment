@@ -254,3 +254,183 @@ nav{
 .video i:hover{
     visibility: visible;
 }
+
+/* play instantly section styling starts here  */
+.play-instantly-container{
+    width: 1400px;
+    height: 65rem;
+    margin: 20rem auto;
+}
+.play-instantly{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.color-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.play-instantly-text{
+    width: 50%;
+    text-align: center;
+}
+.play-instantly-text h1{
+    font-size: 4.8rem;
+    font-weight: 700;
+    line-height: 60px; 
+    margin-bottom: 2.4rem;
+}
+.play-instantly-text p{
+    color: #534C64;
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+.play-instantly-img{
+    width: 50%;
+}
+.play-instantly-img img{
+    width: 100%;
+    height: 65rem;
+}
+.absolute-img{
+    position: absolute;
+    top: 40rem;
+    left: 55rem;
+}
+/* games catagory section starts here  */
+.games-category-container{
+    width: 1400px;
+    margin: 10rem auto;
+    
+}
+.games-catagory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.7rem;
+
+}
+.cat-item{
+    display: flex;
+    min-width: 19rem;
+    height: 8rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem;
+    background: #FFF;
+    gap: 1rem;
+}
+:hover.cat-item h1{
+    color: #FF42A5;
+}
+:hover.cat-item{
+    border: 1.5px solid #FF42A5;
+    border-radius: 5rem;
+    justify-content: space-between;
+    transition: 0.3s ;
+    color: #FF42A5;
+}
+.cat-item h1{
+    color: #0B0223;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+/* footer section starts here  */
+footer{
+    width: 100%;
+    height: 63.6rem;
+    background: #0B0223;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.content{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    padding-bottom: 3.7rem;
+
+}
+
+.footer-logo img {
+    width: 8.6rem;
+    height: 4rem;
+}
+
+.footer-logo h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: #fff;
+}
+.footer-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6.6rem;
+}
+.footer-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.footer-links ul a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    margin-bottom: 7.4rem;
+    flex-wrap: wrap;
+}
+.social-icons .fa-brands{
+    color: #fff;
+    font-size: 4rem;
+}
+.more-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.8rem;
+}
+.more-links ul{
+    display: flex;
+    gap: 6rem;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.more-links ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.bottom-text{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+}
