@@ -151,10 +151,10 @@
     .play-instantly{
         flex-direction: column;
     }
-    .absolute-img{
+    .absolute-img {
         position: absolute;
         width: 30%;
-        top: 44rem;
+        top: 38rem;
         left: 1rem;
     }
     .play-instantly-container{
@@ -192,7 +192,8 @@
         margin: 0 auto 5rem;
     }
     .games-catagory {
-        gap: 0.8rem;
+        margin-top: 5rem;
+
     }
     .cat-item{
         width: 1.4rem;
@@ -247,48 +248,153 @@
 
 }
 /* tablet and small screen laptop view  */
-@media (min-width:577px) and (max-width:1024px) {
+@media (min-width:577px) and (max-width:1440px) {
     .nav-container{
+        width: 100%;
+        gap: 2rem;
         justify-content: center;
         align-items: center;
+        padding: 2rem;
     }
-    .nav-logo,.nav-links{
-        width: 40%;
+    .nav-links{
+        width: 70%;
+    } 
+    .nav-logo{
+        width: 30%;
+        /* height: auto; */
+        gap: 1rem;
     }
-    .banner-container{
-        justify-content: center;
+    .nav-logo img{
+        width: 20%;
+        height: auto;
+    }
+    .nav-logo h1{
+        font-size: 3.5rem;
+    }
+    .nav-links ul{
+        gap: 2rem;
+    }
+    .nav-links ul a{
+        font-size: 1.5rem;
+    }
+    .follow-us{
+        justify-content: space-between;
         align-items: center;
     }
-    .banner-text, .banner-img{
-        width: 40%;
-    }
-    .we-are-gamer{
-        justify-content: center;
-    }
-    .gamer-text,.gamer-img{
-        width: 40%;
-    }
-    .online-games-videos{
-        justify-content: center;
-        align-items: center;
-    }
-    .video-header-info{
-
+    .follow-us p{
+        font-size: 1.5rem;
     }
     .videos{
-        margin: 0 6rem;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
     }
-    .play-instantly {
-        width: 90%;
+    .play-instantly-container{
+        width:100%;
+    }
+    .play-instantly{
+        flex-direction: column;
+    }
+    .play-instantly-img {
+        width: 80%;
+        justify-content: center;
+        text-align: center;
+    }
+    .play-instantly p{
+        margin-bottom: 2rem;
+    }
+
+    .absolute-img {
+        position: absolute;
+        top: 76rem;
+        left: 0rem;
+        width: 25rem;
+        height: auto;
+    }
+    .banner-container {
+        width: 100%;
+        height: auto;
+        padding: 2rem;
         margin: 0 auto;
+        display: flex;
+    }
+    .gamer-text .gamer-gradient {
+        font-size: 3.8rem;
+    }
+    .we-are-gamer {
+        width: 100%;
+        padding: 2rem;
+    }
+
+    .gamer-img {
+        width: 60%;
+    }
+    .gamer-p {
+        font-size: 16px;
+        line-height: 2.4rem;
+        margin-top: 1.4rem;
+    }
+    .banner-btn {
+        padding: 1.1rem 2rem;
+        font-size: 1rem;
+        margin-top: 1.1rem;
+    }
+    .purpose-text p {
+        font-size: 1.5rem;
+    }
+    .purpose-text h1 {
+        font-size: 1.8rem;
+    }
+    .we-are-gamer {
+        align-items: center;
+    }
+    .videos {
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .games-catagory {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2.7rem;
+    }
+    .cat-item {
+
+        justify-content: space-evenly;
+    }
+    .play-instantly-img img {
+        width: 70%;
+        height: 65rem;
     }
     .absolute-img {
-        left: 50rem;
-        width: 25rem;
-        top: 45rem;
+        top: 76rem;
+        left: 18rem;
     }
-    footer{
-        width: 100vw;
 
+
+}
+@media (min-width:1025px) and (max-width:1440px) {
+    .videos {
+        grid-template-columns: repeat(4,1fr);
+        justify-content: center;
     }
+    .play-instantly {
+        flex-direction: row;
+    }
+    .absolute-img {
+        top: 47rem;
+        left: 50rem;
+    }
+    .games-catagory {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 2.7rem;
+    }
+}
+
+@media (min-width:1440px) {
+    .absolute-img {
+        position: absolute;
+        top: 40rem;
+        left: 48rem;
+    }
+    
 }

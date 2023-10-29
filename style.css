@@ -78,13 +78,15 @@ nav{
 }
 /* nav section ends here  */
 .banner{
+    width: 100%;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
 }
 .banner-container{
-    width: 140rem;
-    height: 70rem;
+    width: 75%;
+    height: auto;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
 }
 
 .banner-text,.banner-img{
@@ -97,11 +99,11 @@ nav{
 
 .banner-text p{
     color: #0B0223;
-    font-size: 48px;
+    font-size: 4rem;
     font-weight: 600;
 }
 .gradient-text{
-    font-size: 9.5rem;
+    font-size: 7.5rem;
     font-weight: 800;
     text-transform: uppercase;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -113,12 +115,12 @@ nav{
     text-decoration: none;
     list-style-type: none;
     color: #534C64;
-    font-size: 20px;
+    font-size: 1.7rem;
     font-weight: 500;
     line-height: 1.5;
     margin-top: 2.4rem;
 }
-.btn-container{
+.btn-container {
     display: flex;
     gap: 2.4rem;
 }
@@ -144,11 +146,12 @@ nav{
 
 /* we are gamer section starts here  */
 .we-are-gamer-container{
+   
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
 }
 .we-are-gamer{
-    width: 130rem;
-    height: 60rem;
+    width: 75%;
+    height: auto;
     margin: 0 auto;
     display: flex;
 
@@ -194,7 +197,8 @@ nav{
 }
 /* Online Games funny videos starts here  */
 .online-games-videos{
-    width: 1400px;
+    width: 75%;
+    height: auto;
     margin: 12rem auto;
 
 }
@@ -257,8 +261,8 @@ nav{
 
 /* play instantly section styling starts here  */
 .play-instantly-container{
-    width: 1400px;
-    height: 65rem;
+    width: 75%;
+    height: auto;
     margin: 20rem auto;
 }
 .play-instantly{
@@ -301,7 +305,8 @@ nav{
 }
 /* games catagory section starts here  */
 .games-category-container{
-    width: 1400px;
+    width: 75%;
+    height: auto;
     margin: 10rem auto;
     
 }
@@ -340,17 +345,18 @@ nav{
 }
 /* footer section starts here  */
 footer{
-    width: 100vw;
-    height: 63.6rem;
+    width: 100%;
+    height: auto;
     background: #0B0223;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 5rem 0;
     
 }
 .content{
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
