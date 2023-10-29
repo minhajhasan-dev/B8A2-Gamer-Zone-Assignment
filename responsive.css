@@ -246,3 +246,49 @@
 
 
 }
+/* tablet and small screen laptop view  */
+@media (min-width:577px) and (max-width:1024px) {
+    .nav-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .nav-logo,.nav-links{
+        width: 40%;
+    }
+    .banner-container{
+        justify-content: center;
+        align-items: center;
+    }
+    .banner-text, .banner-img{
+        width: 40%;
+    }
+    .we-are-gamer{
+        justify-content: center;
+    }
+    .gamer-text,.gamer-img{
+        width: 40%;
+    }
+    .online-games-videos{
+        justify-content: center;
+        align-items: center;
+    }
+    .video-header-info{
+
+    }
+    .videos{
+        margin: 0 6rem;
+    }
+    .play-instantly {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .absolute-img {
+        left: 50rem;
+        width: 25rem;
+        top: 45rem;
+    }
+    footer{
+        width: 100vw;
+
+    }
+}

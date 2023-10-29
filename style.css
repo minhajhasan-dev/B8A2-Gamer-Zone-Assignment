@@ -340,7 +340,7 @@ nav{
 }
 /* footer section starts here  */
 footer{
-    width: 100%;
+    width: 100vw;
     height: 63.6rem;
     background: #0B0223;
     display: flex;
@@ -433,4 +433,5 @@ footer{
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
+    margin-top: 3rem;
 }
